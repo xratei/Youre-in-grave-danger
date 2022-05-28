@@ -257,9 +257,9 @@ public class YigdConfig implements ConfigData {
         @ConfigEntry.Gui.Tooltip
         @ConfigEntry.Gui.RequiresRestart
         @ConfigEntry.Gui.EnumHandler(option = ConfigEntry.Gui.EnumHandler.EnumDisplayOption.BUTTON)
-        public ScrollTypeConfig scrollType = ScrollTypeConfig.DISABLED;
+        public ScrollTypeConfig scrollType = ScrollTypeConfig.SCROLL_OF_RETURN;
         @ConfigEntry.Gui.Tooltip
-        public boolean retrieveOnRespawn = true;
+        public boolean retrieveOnRespawn = false;
     }
 
     public static class GraveKeySettings {
