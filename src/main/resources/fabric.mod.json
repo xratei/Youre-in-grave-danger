@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "yigd",
-  "version": "${version}",
+  "version": "${version}+1.19",
 
   "name": "You're in Grave Danger",
   "description": "Adds graves and some other stuff to the game",
@@ -35,13 +35,10 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.12.9",
+    "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "1.19.x",
+    "minecraft": "~1.19",
     "java": ">=17",
     "cloth-config2": ">=7.0.61"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
